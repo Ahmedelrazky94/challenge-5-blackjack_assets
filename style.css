@@ -1,0 +1,71 @@
+
+.main-div {
+    width: 75%;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.side-board {
+    border: 1px solid black;
+    width: 50%;
+    height: 400px;
+}
+
+.game-board{
+    background-image: url('https://t4.ftcdn.net/jpg/00/93/36/49/360_F_93364974_eoos8QGsa9CzTa5hGRRL6EutXMSKgdOA.jpg');
+}
+
+.gameScore {
+    margin-top: 8px;
+    color: white;
+}
+
+.first-row-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+}
+img {
+    width: 100px;
+    margin: 5px;
+}
+.card-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.second-raw-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+.btn-div {
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.table-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table,th,td {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
