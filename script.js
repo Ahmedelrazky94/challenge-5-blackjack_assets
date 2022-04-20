@@ -3,7 +3,6 @@ const hitSound = new Audio('sounds/swish.m4a');
 const looseSound = new Audio('sounds/aww.mp3');
 const winSound = new Audio('sounds/cash.mp3');
 const timer = ms => new Promise(res => setTimeout(res, ms));
-
 //initialize game variable
 let myGameScore = 0;
 let botGameScore = 0;
